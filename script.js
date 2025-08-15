@@ -1,0 +1,1 @@
+console.log("Projeto Xibaba carregado com sucesso!");
