@@ -1,27 +1,47 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Xibaba - Conforto Nunca Sai de Moda</title>
+    <title>Xibaba - Loja Online</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <h1>Xibaba</h1>
-        <p>Conforto Nunca Sai de Moda</p>
+        <nav>
+            <a href="#">Roupas Femininas</a>
+            <a href="#">Beleza & Cuidados</a>
+            <a href="#">Eletrodomésticos</a>
+            <a href="#">Acessórios</a>
+        </nav>
     </header>
     <main>
+        <section class="hero">
+            <h2>Estilo, conforto e preço justo</h2>
+        </section>
         <section class="produtos">
-            <h2>Em Destaque</h2>
+            <h3>Destaques</h3>
             <div class="produto">
-                <img src="logo-xibaba.png" alt="Produto Xibaba">
-                <p>Brevemente disponível</p>
+                <img src="conjunto.jpg" alt="Conjunto feminino branco">
+                <p>Conjunto feminino branco</p>
+                <button onclick="addToCart('Conjunto feminino branco')">Ver mais</button>
+            </div>
+            <div class="produto">
+                <img src="beleza.jpg" alt="Produtos de beleza">
+                <p>Produtos de beleza</p>
+                <button onclick="addToCart('Produtos de beleza')">Ver mais</button>
+            </div>
+            <div class="produto">
+                <img src="microondas.jpg" alt="Micro-ondas">
+                <p>Micro-ondas</p>
+                <button onclick="addToCart('Micro-ondas')">Ver mais</button>
             </div>
         </section>
     </main>
     <footer>
         <p>&copy; 2025 Xibaba. Todos os direitos reservados.</p>
+        <a href="https://wa.me/55999999999" target="_blank">Fale no WhatsApp</a>
     </footer>
     <script src="script.js"></script>
 </body>

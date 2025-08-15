@@ -1,1 +1,4 @@
-console.log("Projeto Xibaba carregado com sucesso!");
+
+function addToCart(produto) {
+    alert(produto + " foi adicionado ao carrinho!");
+}
